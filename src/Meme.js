@@ -10,7 +10,6 @@ export default function Meme() {
         randomImage: ""
     })
 
-
     const [allMemeImages, setAllMemeImages] = React.useState(memesData)
 
     function getMemeImage() {
